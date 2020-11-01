@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shipping_bg"
+    tools:context=".Agent_Activity">
+    <ImageButton
+        android:id="@+id/fab"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:onClick="logoutAction"
+        android:layout_margin="16dp"
+        android:src="@drawable/logout" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACTIVITIES"
+        android:id="@+id/txtvw"
+        android:layout_marginTop="26dp"
+        android:textSize="30dp"
+        android:layout_toRightOf="@id/fab"
+        android:layout_marginLeft="25dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fab"
+        android:padding="7dp"
+        android:layout_marginTop="30dp"
+        android:onClick="actionRedirect"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/add_prdct"
+        android:id="@+id/add_prdct"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_prdct"
+        android:layout_marginTop="30dp"
+        android:onClick="actionRedirect"
+        android:padding="7dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rmv_prdct"
+        android:id="@+id/rmv_prdct"/>
+</RelativeLayout>
