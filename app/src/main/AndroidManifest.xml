@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.builderssupply">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RemoveActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".AddActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Agent_Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Agent_Profile" android:screenOrientation="portrait"/>
+        <activity android:name=".Final_Order" android:screenOrientation="portrait"/>
+        <activity android:name=".ShippingDetails" android:screenOrientation="portrait"/>
+        <activity android:name=".Acknowledgement" android:screenOrientation="portrait"/>
+        <activity android:name=".Lights" android:screenOrientation="portrait"/>
+        <activity android:name=".Pipings" android:screenOrientation="portrait"/>
+        <activity android:name=".Decor" android:screenOrientation="portrait"/>
+        <activity android:name=".Paints" android:screenOrientation="portrait"/>
+        <activity android:name=".Cements" android:screenOrientation="portrait"/>
+        <activity android:name=".Category_List" android:screenOrientation="portrait"/>
+        <activity android:name=".Register_Two" android:screenOrientation="portrait"/>
+        <activity android:name=".Register_One" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
