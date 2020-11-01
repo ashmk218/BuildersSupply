@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Builders Supply</string>
+    <string name="title_activity_product__list">Product_List</string>
+    <string name="tab_text_1">CEMENTS</string>
+    <string name="tab_text_2">PAINTS</string>
+    <string name="tab_text_3">DECORE</string>
+    <string name="cat_prompt">SELECT CATEGORY</string>
+    <string-array name="category_list">
+        <item>CONSTRUCTIONS</item>
+        <item>PAINTS</item>
+        <item>FURNITURE</item>
+    </string-array>
+</resources>
