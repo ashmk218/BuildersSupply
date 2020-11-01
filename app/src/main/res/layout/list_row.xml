@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/roew_bg"
+    android:padding="14dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/images">
+    </ImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:textColor="#0064FA"
+            android:textStyle="bold"
+            android:id="@+id/main_title"
+            android:text="Main Title"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:id="@+id/seller_txt"
+            android:textColor="#0064FA"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="scscvshdg">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/main_title"
+            android:textColor="#FA004F"
+            android:textStyle="bold"
+            android:id="@+id/sub_title"
+            android:text="Main Title"
+            android:textSize="15sp"></TextView>
+    </RelativeLayout>
+</LinearLayout>
